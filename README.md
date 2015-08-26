@@ -1,6 +1,6 @@
 # Angular Party
 
-Your goal is to implement an AngularJS dance party! Or a picnic... or zoo. The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party!</a>. But basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image.   The goal is to have a visually and auditorally stimulating, colorful, interactive experience.
+Your goal is to implement an AngularJS dance party! The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party!</a>. But basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image. 
 
 This app focuses on:
 
@@ -17,14 +17,12 @@ This app focuses on:
 
 * A user should be able to click a button to add a sticker (from giphy) to the page. 
   * The user should be able to enter a search term or tag into an input field on the page and submit the search. 
-  * When the user submits the search, the app should show the user giphy stickers related to their search. Those stickers might be from a new API call or from a cached (saved) API call.
+  * When the user submits the search, the app should show the user giphy stickers related to their search. Those stickers might be from a new API call, or from a cached (saved) API call. (Start with a new API call every time; it's easier!)
   * The user should be able to see at least three of the dancing stickers, and choose which one they'd like to add.
 
 * A user should be able to drag stickers around over the background.  
 
 * A user should be able to enter the URL for a background image. 
-
-
 
 ## Bonus
 
