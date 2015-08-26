@@ -20,12 +20,14 @@ This app focuses on:
   * When the user submits the search, the app should show the user giphy stickers related to their search. Those stickers might be from a new API call, or from a cached (saved) API call. (Start with a new API call every time; it's easier!)
   * The user should be able to see at least three of the dancing stickers, and choose which one they'd like to add.
 
-* A user should be able to drag stickers around over the background.  
+* A user should be able to drag stickers around over the background.  Try using a premade `ngDraggable`. 
 
-* A user should be able to enter the URL for a background image. 
+* A user should be able select one of a list of 2-3 background images. Stretch: the user should be able to enter the URL for a background image. 
 
 ## Bonus
 
-* To help indicate the number of remaining guesses, draw the hangman (or the representation of your choosing) on an <a href="http://www.html5canvastutorials.com/tutorials/html5-canvas-line-color">HTML5 Canvas element</a>.
-* Allow the user to enter hints when they create the word, and let the user playing the game see these hints if they choose.
-* Find a dictionary API and use it to determine if the word entered at the start of the game is valid.
+* Use a scope variable to store previous tag requests and the results the API sent back.  This will "cache" the results.
+
+* Integrate with the spotify API so users can search for music to play in the background.
+
+* Instead of using a static background image, use an HTML5 canvas to draw a dance floor with many tiles. Let the user enter a color for the tiles. 
