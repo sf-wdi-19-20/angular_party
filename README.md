@@ -62,7 +62,7 @@ _image from Saba Zaidi at http://www.sabazaidi.com/ethny.php_
 1. For variables with data, supply dummy data and test that it shows up correctly on the page. 
 
 
-### Using User Input with the Giphy API
+### Tie User Input to the Giphy API
 
 1. Create a form where the user can input the "tag" or search term for the gif they'd like to see. 
 1. Use `ng-model` to connect individual form inputs to your controller and `ng-submit` to handle submitting the form.
@@ -71,7 +71,7 @@ _image from Saba Zaidi at http://www.sabazaidi.com/ethny.php_
 1. Based on your prior research, set a variable or variables in the `$scope` to store the parts of the giphy API response that you want to use on the page.
 
 
-### Dragging
+### Add Dragging
 
 Placing gifs on the page is an essential part of this app's mvp, so get it working early! Remember, 
 <a href="https://www.youtube.com/watch?v=5jsORc3sPtQ" target="_blank">there ain't no feature like an MVP feature because an MVP feature is *mandatory*</a>.
@@ -83,7 +83,7 @@ Placing gifs on the page is an essential part of this app's mvp, so get it worki
 1. Grab one gif from the api results you explored earlier and use it to test out dragging on your page.
 
 
-### Adding Sound
+### Add Sound
 
 1. Include an external `ngAudio` directive in your project. Hint: One possibility is <a href="http://stackoverflow.com/a/17624543" target="_blank">this simple directive from StackOverflow user narced133</a>. Remember to add a comment with the source of your external directives!
 1. Incorporate the audio directive into your html with an example sound.
@@ -92,7 +92,7 @@ Placing gifs on the page is an essential part of this app's mvp, so get it worki
 
 <img src="http://www.reactiongifs.com/wp-content/uploads/2012/10/boombox-boogie.gif" width ="20%">
 
-### Caching Data
+### Cache Data
 
 "Caching" data just means saving data for later, when you already know you'll need it later. This concept is essential in areas from advanced recursive algorithms to speeding up websites.  
 
