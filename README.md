@@ -1,6 +1,6 @@
 # Angular Party
 
-Your goal is to implement an AngularJS party with music and "guests"! The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party!</a>. But basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image. 
+Your goal is to implement an AngularJS party with music and "guests"! The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party!</a> But basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image. 
 
 This app focuses on:
 
@@ -24,7 +24,7 @@ This app focuses on:
 1. Super stretch: The user should be able to enter a search term to hear different audio!
 
 
-## Tips
+## Tips / Suggested Approach
 
 Here are some tips you may find useful for key steps during this project!
 
@@ -52,7 +52,8 @@ _image from Saba Zaidi at http://www.sabazaidi.com/ethny.php_
 
 ### Implement Wireframes with Dummy Data
 
-1. Create the `index.html` view code you need to match your wireframes. Don't worry about getting everything perfect, at the beginning.
+1. Create the `index.html` view code you need to match your wireframes.
+1. Spend a little time on styling, but don't worry about getting everything perfect at the beginning. This is a good time to add the user controls you'll need and a background image.
 1. Create the `$scope` variables you'll need to make your view work!
 1. For variables with data, supply dummy data and test that it shows up correctly on the page. 
 
@@ -82,6 +83,23 @@ Placing gifs on the page is an essential part of this app's mvp, so get it worki
 1. Incorporate the audio directive into your html with an example sound.
 1. Modify your html so that the sound loops. Reference MDN's <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">HTML5 `<audio>` docs</a>.
 1. Find a few sounds you like. You need the url of the sound online, so you're looking for urls that end in, for example, `.ogg` or `.wav`. One potential resource is <a href="http://www.findsounds.com/" target="_blank">http://www.findsounds.com/</a>.  Try searching "loop" to find sounds that loop well!
+
+### Caching Data
+
+"Caching" data just means saving data for later, when you already know you'll need it later. This concept is essential in areas from advanced recursive algorithms to speeding up websites.  
+
+Often, websites cache data for a certain amount of time. If the data is older than, say, 30 minutes, they'll make a new API call. If the data is new enough, they'll just show previous results.  This wouldn't work as well for realtime sites like twitter.  Caching works best when data doesn't update very frequently, because you can save the time it would take to make an API request. When data doesn't update much (like giphy's stickers), caching api results for user searches will make the app faster and smoother to use! 
+
+So, how do we save data for later? Sometimes, you'll store it in your database. There are also shorter-term storage options like localStorage and Redis.
+
+<sup>Note: `localStorage` is available in your browser. It lets you keep data around even after the page refreshes! We talked about `localStorage` very early on in the class, and there are angular modules avaialble to use it. If you get excited about this project and want to, you could store API data in `localStorage` with an external angular module. Redis is a very popular in-memory key value store (another somewhat similar tool is memcached).  Data in Redis lasts longer than in localStorage but not as long as an always-on remote database. It's a cool tool, but not within the scope of the weekend project.</sup>
+
+1. **Anyway**, you can start by creating a variable in your `$scope` to store the user's previous search terms and the giphy API results you got back. You might call it `$scope.cache` or `$scope.giphyCache`, etc. 
+1. Think about what data type this variable should be, to let you store the search terms alongside the results, and look them up quickly if the user does the same search again.
+1. Change your code so that when the user submits a search term, you check whether that term is already in your cache. If it is in the cache, use the cached results instead of making a new API call!
+
+
+
 
 
 
