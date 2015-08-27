@@ -75,6 +75,7 @@ Placing gifs on the page is an essential part of this app's mvp, so get it worki
 1. If the draggable you find suggests installing with bower, you can either install bower, or copy the source code directly into your project. If you copy the source code, add a comment that gives attribution to the creator and a link to their site!
 1. Remember to add a dependency to your `ngDraggable` module in your application with `angular.module('yourAppName', ['ngDraggable']);`.  
 1. Read the module's docs (or check out the demo code) to see how to incorporate it into your html.
+1. Grab one gif from the api results you explored earlier and use it to test out dragging on your page.
 
 
 ### Adding Sound
