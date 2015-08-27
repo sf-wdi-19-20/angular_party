@@ -2,7 +2,7 @@
 
 <img src="https://media.giphy.com/media/V0BIjUQRfl8tO/giphy.gif" width="50%">
 
-Your goal is to implement an AngularJS party with music and "guests"! The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party!</a> But basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image. 
+Your goal is to implement an AngularJS party with music and "guests"! The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party.</a> Basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image. 
 
 This app focuses on:
 
