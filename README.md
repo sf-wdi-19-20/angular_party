@@ -85,12 +85,12 @@ Placing gifs on the page is an essential part of this app's mvp, so get it worki
 
 ### Adding Sound
 
-<img src="http://www.reactiongifs.com/wp-content/uploads/2012/10/boombox-boogie.gif" width ="20%">
-
 1. Include an external `ngAudio` directive in your project. Hint: One possibility is <a href="http://stackoverflow.com/a/17624543" target="_blank">this simple directive from StackOverflow user narced133</a>. Remember to add a comment with the source of your external directives!
 1. Incorporate the audio directive into your html with an example sound.
 1. Modify your html so that the sound loops. Reference MDN's <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">HTML5 `<audio>` docs</a>.
 1. Find a few sounds you like. You need the url of the sound online, so you're looking for urls that end in, for example, `.ogg` or `.wav`. One potential resource is <a href="http://www.findsounds.com/" target="_blank">http://www.findsounds.com/</a>.  Try searching "loop" to find sounds that loop well!
+
+<img src="http://www.reactiongifs.com/wp-content/uploads/2012/10/boombox-boogie.gif" width ="20%">
 
 ### Caching Data
 
