@@ -1,5 +1,7 @@
 # Angular Party
 
+<img src="https://media.giphy.com/media/V0BIjUQRfl8tO/giphy.gif" width="50%">
+
 Your goal is to implement an AngularJS party with music and "guests"! The inspiration for this app is <a href="http://gifdanceparty.giphy.com/" target="_blank">GIF Dance Party!</a> But basically, we'll use the giphy "stickers" api to let users stick moving images onto the page, and we'll add sound and a background image. 
 
 This app focuses on:
@@ -50,12 +52,15 @@ _image from Saba Zaidi at http://www.sabazaidi.com/ethny.php_
 1. Start up `http-server` and go to the page in your browser. Check back frequently to see if there are errors and/or confirm that the page is still working!
 1. Create your first controller. Follow our class convention by creating a `MainCtrl` and adding it to the `<body>` tag of your html. Create a test variable on your `MainCtrl` scope to check that everything is connected properly. You may use a separate `controllers.js` file if you prefer, or keep your controller(s) in `app.js`. 
 
+<img src="http://www.thisiscolossal.com/wp-content/uploads/2014/09/amish.gif" width="50%">
+
 ### Implement Wireframes with Dummy Data
 
 1. Create the `index.html` view code you need to match your wireframes.
 1. Spend a little time on styling, but don't worry about getting everything perfect at the beginning. This is a good time to add the user controls you'll need and a background image.
 1. Create the `$scope` variables you'll need to make your view work!
 1. For variables with data, supply dummy data and test that it shows up correctly on the page. 
+
 
 ### Using User Input with the Giphy API
 
@@ -79,6 +84,8 @@ Placing gifs on the page is an essential part of this app's mvp, so get it worki
 
 
 ### Adding Sound
+
+<img src="http://www.reactiongifs.com/wp-content/uploads/2012/10/boombox-boogie.gif" width ="20%">
 
 1. Include an external `ngAudio` directive in your project. Hint: One possibility is <a href="http://stackoverflow.com/a/17624543" target="_blank">this simple directive from StackOverflow user narced133</a>. Remember to add a comment with the source of your external directives!
 1. Incorporate the audio directive into your html with an example sound.
